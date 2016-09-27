@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8"/>
+        <!--这里需要替换成海报名称-->
+        <title>海报名称</title>
+        <meta content="width=device-width, inital-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
+        <style>
+            html {
+                height: 100%;
+                font-size: 12px;
+            }
+
+            body {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                line-height: 1.2;
+                font-size: 12px;
+                font-family: 'Microsoft Yahei', sans-serif;
+            }
+
+            @media screen and (min-width: 320px) {
+                html {
+                    font-size: 12px;
+                }
+
+                body {
+                    font-size: 12px;
+                }
+            }
+
+            @media screen and (min-width: 400px) {
+                html {
+                    font-size: 14px;
+                }
+
+                body {
+                    font-size: 12px;
+                }
+            }
+
+            @media screen and (min-width: 480px) {
+                html {
+                    font-size: 16px;
+                }
+
+                body {
+                    font-size: 12px;
+                }
+            }
+
+            @media screen and (min-width: 640px) {
+                html {
+                    font-size: 20px;
+                }
+
+                body {
+                    font-size: 12px;
+                }
+            }
+
+            .hidden {
+                display: none;
+            }
+
+            .container {
+                max-width: 640px;
+                min-height: 100%;
+                margin: 0 auto;
+                background: #c7294c url(bg.jpg) no-repeat center 0;
+                background-size: 100%;
+            }
+
+            .poster {
+                padding-top: 45%;
+                overflow: hidden;
+            }
+
+            .poster-info {
+                height: 12rem;
+                text-align: center;
+                color: #B31A36;
+            }
+
+            .poster-info h3 {
+                width: 15rem;
+                margin: 0 auto;
+                font-size: 1.5rem;
+                font-weight: 400;
+            }
+
+            .poster-info .time {
+                margin-top: .2rem;
+                font-size: 1rem;
+            }
+
+            .coupon-list {
+                width: 18.3rem;
+                margin: 2rem auto 0;
+                padding: 0;
+                list-style: none;
+                overflow: hidden;
+            }
+
+            .coupon-list li {
+                margin-bottom: 25px;
+                background: url(coupon.png) no-repeat;
+                background-size: contain;
+            }
+
+            .coupon-list li a {
+                display: block;
+                text-decoration: none;
+            }
+
+            .coupon {
+                width: 86%;
+                height: 9.8rem;
+                color: #f9eeb4;
+                text-align: center;
+            }
+
+            .price {
+                padding: 1rem;
+                font-size: 1.8rem;
+            }
+
+            .price em {
+                font-size: 2.4rem;
+                font-style: normal;
+            }
+
+            .coupon-time {
+                margin-top: 2.7rem;
+                font-size: 1.1rem;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="hidden">
+            <img src="logo.jpg">
+        </div>
+        <div class="container">
+            <div class="poster">
+                <div class="poster-info">
+                    <!--这里替换成海报名称-->
+                    <h3>海报标题海报标题海报标题海报标题海报标题</h3>
+                    <div class="time">2016.9.1 - 2016.10.1</div>
+                </div>
+                <ul class="coupon-list">
+                    <!--循环开始-->
+                    <li>
+                       <a href="#">
+                            <div class="coupon">
+                                <div class="price">
+                                    <em>20</em>元优惠券
+                                </div>
+                                <div class="coupon-time">2016.9.10 - 2016.12.21</div>
+                            </div>
+                       </a>
+                    </li>
+                    <!-- <li>
+                       <a href="#">
+                            <div class="coupon">
+                                <div class="price">
+                                    <em>20</em>元优惠券
+                                </div>
+                                <div class="coupon-time">2016.9.10 - 2016.12.21</div>
+                            </div>
+                       </a>
+                    </li>
+                    <li>
+                       <a href="#">
+                            <div class="coupon">
+                                <div class="price">
+                                    <em>20</em>元优惠券
+                                </div>
+                                <div class="coupon-time">2016.9.10 - 2016.12.21</div>
+                            </div>
+                       </a>
+                    </li>
+                    <li>
+                       <a href="#">
+                            <div class="coupon">
+                                <div class="price">
+                                    <em>20</em>元优惠券
+                                </div>
+                                <div class="coupon-time">2016.9.10 - 2016.12.21</div>
+                            </div>
+                       </a>
+                    </li>
+                    <li>
+                       <a href="#">
+                            <div class="coupon">
+                                <div class="price">
+                                    <em>20</em>元优惠券
+                                </div>
+                                <div class="coupon-time">2016.9.10 - 2016.12.21</div>
+                            </div>
+                       </a>
+                    </li> -->
+                    <!--循环结束-->
+
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
