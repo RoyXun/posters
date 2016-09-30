@@ -72,12 +72,12 @@
             }
 
             .poster {
-                padding-top: 66%;
+                padding-top: 64.7%;
                 overflow: hidden;
             }
 
             .poster-info {
-                height: 8rem;
+                height: 7rem;
                 text-align: center;
                 color: #fff;
             }
@@ -89,9 +89,32 @@
                 font-weight: 400;
             }
 
-            .poster-info .time {
-                margin-top: 1rem;
+            .time-wrap {
+                position: relative;
+                height: 0;
+                margin-bottom: 1rem;
+                padding-bottom: 6.875%;
+            }
+
+            .time {
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                z-index: 10;
+            }
+
+            .vertical-middle {
+                display: table;
+                width: 100%;
+                height: 100%;
+            }
+            .vertical-middle .text {
+                display: table-cell;
+                color: #f0ff00;
                 font-size: 1rem;
+                vertical-align: middle;
             }
 
             .coupon-list {
@@ -144,8 +167,14 @@
             <div class="poster">
                 <div class="poster-info">
                     <!--这里替换成海报名称-->
+                    <div class="time-wrap">
+                        <div class="time">
+                            <div class="vertical-middle">
+                                <div class="text">2016.9.1 - 2016.10.1</div>
+                            </div>
+                        </div>
+                    </div>
                     <h3>海报标题海报标题海报标题海报标题海报标题</h3>
-                    <div class="time">2016.9.1 - 2016.10.1</div>
                 </div>
                 <ul class="coupon-list">
                     <!--循环开始-->
